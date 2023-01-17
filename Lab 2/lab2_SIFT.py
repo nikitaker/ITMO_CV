@@ -17,11 +17,10 @@ bf = cv2.BFMatcher(cv2.NORM_L1, crossCheck=True)
 matches = bf.match(descriptors_1, descriptors_2)
 # sort matches by distance
 matches = sorted(matches, key=lambda x: x.distance)
-# draw first 50 matches
+# draw first x matches
 matched_img = cv2.drawMatches(source, keypoints_1, template, keypoints_2, matches[:15], template)
 
 
 cv2.imshow('image', matched_img)
-# save the image
 cv2.waitKey(0)
 cv2.destroyAllWindows()
