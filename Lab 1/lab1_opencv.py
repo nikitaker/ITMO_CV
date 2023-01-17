@@ -30,7 +30,6 @@ while cam.isOpened:
 
         if cv2.waitKey() == ord('q'):
             break
-    # Break the loop
     else:
         break
 

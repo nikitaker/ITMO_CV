@@ -7,7 +7,6 @@ from time import perf_counter
 def histogram_equalization(image):
     # from http://www.janeriksolem.net/histogram-equalization-with-python-and.html
 
-    # get image histogram
     hist, bins = np.histogram(image.flatten(), 256, [0, 256])
     cdf = hist.cumsum()
     cdf = (cdf - cdf.min()) * 255 / (cdf.max() - cdf.min())
@@ -43,8 +42,6 @@ while cam.isOpened:
 
         if cv2.waitKey() == ord('q'):
             break
-
-    # Break the loop
     else:
         break
 

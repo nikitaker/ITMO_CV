@@ -21,7 +21,6 @@ def histogram_equalization(image):
     return result
 
 
-
 cam = cv2.VideoCapture("./SampleVideo.mp4")
 
 is_equal = True
@@ -50,8 +49,6 @@ while cam.isOpened:
 
         if cv2.waitKey() == ord('q'):
             break
-
-    # Break the loop
     else:
         break
 
