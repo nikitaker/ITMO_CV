@@ -17,5 +17,4 @@ cv2.rectangle(source, topLeft, botRight, 255, 2)
 # display the images
 cv2.imshow("Main_image", source)
 cv2.imshow("Template", template)
-cv2.imwrite("template_matched.png", source)
 cv2.waitKey(0)

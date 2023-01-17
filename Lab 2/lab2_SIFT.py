@@ -23,6 +23,5 @@ matched_img = cv2.drawMatches(source, keypoints_1, template, keypoints_2, matche
 
 cv2.imshow('image', matched_img)
 # save the image
-cv2.imwrite("matched_images.jpg", matched_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
