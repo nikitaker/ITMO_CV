@@ -1,7 +1,7 @@
 import cv2
 
 source = cv2.imread("source.png")
-template = cv2.imread("another.png")
+template = cv2.imread("test5.png")
 (templateHeight, templateWidth) = template.shape[:2]
 
 result = cv2.matchTemplate(source, template, cv2.TM_SQDIFF)

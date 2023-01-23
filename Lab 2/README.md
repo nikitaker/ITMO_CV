@@ -44,11 +44,31 @@ C++ или Python и любые библиотеки, при этом необх
 
 ![](screenshots/temp_hard.png)
 
+![](screenshots/temp1.png)
+
+![](screenshots/temp2.png)
+
+![](screenshots/temp3.png)
+
+![](screenshots/temp4.png)
+
+![](screenshots/temp5.png)
+
 ### SIFT:
 
-![](screenshots/sift_ez.png)
+![](screenshots/sift1.png)
 
-![](screenshots/sift_hard.png)
+![](screenshots/sift2.png)
+
+![](screenshots/sift3.png)
+
+![](screenshots/sift4.png)
+
+![](screenshots/sift5.png)
+
+![](screenshots/sift6.png)
+
+
 
 ### Вывод:
 
