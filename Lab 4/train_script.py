@@ -69,7 +69,7 @@ class CustomDataset(Dataset):
     def __getitem__(self, idx):
         img_path = self.images[idx][0]
         _class = self.images[idx][1]
-       try:
+        try:
             img = read_img_file(img_path)
             img = _transform(img)
             return (img, _class, img_path)
@@ -106,7 +106,6 @@ model = model.to(device)
 # %%
 loss = torch.nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
-
 scheduler = None
 
 # %%
